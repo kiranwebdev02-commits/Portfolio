@@ -18,15 +18,8 @@ const projectsData = [
     githubUrl: "https://github.com/kirangoswami"
 },
        
-    {
-        id: 3,
-        title: "Coffee Website",
-        description: "A premium, visually stunning landing page for an artisanal coffee shop featuring smooth scrolling and glassmorphism.",
-        image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1000&auto=format&fit=crop",
-        tags: ["HTML", "CSS", "JavaScript"],
-        liveUrl: "#",
-        githubUrl: "https://github.com/kirangoswami"
-    },
+    
+      
    {
     id: 4,
     title: "Luxury Brand Website",
@@ -36,24 +29,7 @@ const projectsData = [
     liveUrl: "file:///C:/Users/Com%20Plus/Pictures/luxury-marketplace/luxury-marketplace/index.html#home",
     githubUrl: "https://github.com/kirangoswami"
 },
-   {
-    id: 5,
-    title: "Insight Hub",
-    description: "A modern AI-powered blog platform with premium UI/UX, responsive design, category-based articles, and an engaging reading experience.",
-    image: "assets/images/technology.png",
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    liveUrl: "file:///C:/Users/Com%20Plus/Desktop/InsightHub-AI/index.html",
-    githubUrl: "https://github.com/kirangoswami"
-},
-    {
-        id: 6,
-        title: "Event Booking Website",
-        description: "A full-stack booking system allowing users to reserve seats, view schedules, and receive automated confirmations.",
-        image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1000&auto=format&fit=crop",
-        tags: ["PHP", "MySQL", "JavaScript", "AJAX"],
-        liveUrl: "#",
-        githubUrl: "https://github.com/kirangoswami"
-    }
+   
 ];
 
 function renderProjects() {
