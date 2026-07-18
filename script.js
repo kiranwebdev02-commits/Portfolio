@@ -198,17 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    /* --- MOBILE MENU TOGGLE --- */
-    const mobileBtn = document.querySelector('.mobile-menu-btn');
-    const navLinksContainer = document.querySelector('.nav-links');
     
-    if (mobileBtn && navLinksContainer) {
-        mobileBtn.addEventListener('click', () => {
-            navLinksContainer.classList.toggle('active-mobile');
-            // We would need to add CSS for this, but since we are writing clean JS,
-            // we handle the toggle. In a real premium site, this would trigger a fullscreen glass menu.
-        });
-    }
 
     /* --- FORM SUBMISSION PREVENT (Demo) --- */
     const contactForm = document.getElementById('contactForm');
@@ -269,18 +259,90 @@ themeToggle.addEventListener("click",()=>{
     }
 
 });
-const menuBtn = document.querySelector(".menu-toggle");
-const navMenu = document.querySelector(".nav-links");
+const menuBtn = document.querySelector(".mobile-menu-btn");
+const navLinks = document.querySelector(".nav-links");
 
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+/* --- MOBILE MENU AUTO CLOSE FIX --- */
+document.addEventListener('DOMContentLoaded', () => {
+    const navItems = document.querySelectorAll('.nav-item');
+    const navLinksContainerToClose = document.querySelector('.nav-links');
 
-if(menuBtn && navMenu){
-
-    menuBtn.addEventListener("click",()=>{
-
-        navMenu.classList.toggle("active");
-
-        menuBtn.classList.toggle("open");
-
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            if (navLinksContainerToClose) {
+                navLinksContainerToClose.classList.remove('active');
+                navLinksContainerToClose.classList.remove('active-mobile');
+            }
+        });
     });
+});
+/* ==========================================================
+   PART A5
+   MOBILE MENU
+========================================================== */
+
+document.addEventListener("DOMContentLoaded",function(){
+
+const menuBtn=document.querySelector(".mobile-menu-btn");
+
+const nav=document.querySelector(".nav-links");
+
+if(menuBtn && nav){
+
+menuBtn.addEventListener("click",()=>{
+
+nav.classList.toggle("active");
+
+});
+
+document.querySelectorAll(".nav-links a").forEach(link=>{
+
+link.addEventListener("click",()=>{
+
+nav.classList.remove("active");
+
+});
+
+});
 
 }
+
+});
+document.addEventListener("DOMContentLoaded", () => {
+
+    const menuBtn = document.querySelector(".mobile-menu-btn");
+    const nav = document.querySelector(".nav-links");
+
+    console.log(menuBtn);
+    console.log(nav);
+
+});
+document.addEventListener("DOMContentLoaded", () => {
+
+    const menuBtn = document.querySelector(".mobile-menu-btn");
+    const nav = document.querySelector(".nav-links");
+
+    if(menuBtn && nav){
+
+        menuBtn.addEventListener("click", () => {
+
+            nav.classList.toggle("active");
+
+        });
+
+        document.querySelectorAll(".nav-links a").forEach(link=>{
+
+            link.addEventListener("click",()=>{
+
+                nav.classList.remove("active");
+
+            });
+
+        });
+
+    }
+
+});
