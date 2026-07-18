@@ -6932,7 +6932,7 @@ html{
 
 .center-illustration{
 
-    transform:translateY(90px) !important;
+    transform:translateY(60px) !important;
 
 }
 
@@ -6945,20 +6945,59 @@ html{
 
 .hero-visual{
 
-    margin-top:120px !important;
+    margin-top:30px !important;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
 }
 
 .orbit-system{
 
-    margin-top:80px !important;
+    margin-top:0 !important;
 
-    transform:translateY(80px) !important;
+    transform:translateY(20px) !important;
+
+}
+
+.center-illustration{
+
+    transform:translateY(-100px) !important;
+    margin-left: -25%;
+    margin-top: -5px;
 
 }
 
 }
-@media(max-width:991px){
+/* ===========================================
+   MOBILE HERO TITLE FIX
+=========================================== */
+
+@media (max-width:767px){
+
+.hero-title{
+
+    font-size:3.2rem !important;
+
+    line-height:1.15;
+
+    text-align:left;
+
+    width:100%;
+
+    margin:0 auto 18px;
+
+}
+
+.hero-title span{
+
+    display:inline !important;
+
+}
+
+}
+@media (max-width:991px){
 
 .nav-links{
 
@@ -6969,33 +7008,21 @@ html{
 
     width:100%;
 
+    background:#070b17;
+
     display:none;
 
     flex-direction:column;
 
-    text-align:center;
+    padding:25px;
 
-    background:#070b17;
-
-    padding:30px 0;
+    z-index:999;
 
 }
-
 
 .nav-links.active{
 
     display:flex;
-
-}
-
-
-.menu-toggle{
-
-    display:block;
-
-    cursor:pointer;
-
-    font-size:25px;
 
 }
 
