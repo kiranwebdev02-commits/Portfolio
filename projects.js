@@ -1,11 +1,11 @@
 const projectsData = [
-   {
-    id: 1,
-    title: "Roadmap Website",
-    description: "A modern web development roadmap platform with interactive learning paths and technology guides.",
-    image: "assets/images/webroadmap.png",
+  {
+    id: 4,
+    title: "Luxury Brand Website",
+    description: "A premium luxury marketplace website featuring elegant UI, smooth animations, premium product showcase, responsive design, and immersive shopping experience.",
+    image: "assets/images/luxury.png",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    liveUrl: "file:///C:/Users/Com%20Plus/Desktop/web-roadmap/learning/index.html",
+    liveUrl: "file:///C:/Users/Com%20Plus/Pictures/luxury-marketplace/luxury-marketplace/index.html#home",
     githubUrl: "https://github.com/kirangoswami"
 },
     {
@@ -20,16 +20,16 @@ const projectsData = [
        
     
       
+   
    {
-    id: 4,
-    title: "Luxury Brand Website",
-    description: "A premium luxury marketplace website featuring elegant UI, smooth animations, premium product showcase, responsive design, and immersive shopping experience.",
-    image: "assets/images/luxury.png",
+    id: 1,
+    title: "Roadmap Website",
+    description: "A modern web development roadmap platform with interactive learning paths and technology guides.",
+    image: "assets/images/webroadmap.png",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    liveUrl: "file:///C:/Users/Com%20Plus/Pictures/luxury-marketplace/luxury-marketplace/index.html#home",
+    liveUrl: "https://kiranwebdev02-commits.github.io/luxury-brand-website/",
     githubUrl: "https://github.com/kirangoswami"
 },
-   
 ];
 
 function renderProjects() {
