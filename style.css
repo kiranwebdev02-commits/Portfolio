@@ -8783,3 +8783,146 @@ body.light-mode .glass-nav .nav-container {
     }
       
 }
+/* =========================================================
+   FINAL FIX — TYPING + SCROLL + NAVBAR STABILITY
+========================================================= */
+
+/* Browser viewport ko horizontally kabhi expand nahi hone dena */
+html {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+
+    scrollbar-gutter: stable !important;
+
+    overflow-anchor: none !important;
+}
+
+body {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    overflow-x: hidden !important;
+
+    overflow-anchor: none !important;
+}
+
+
+/* =========================================================
+   TYPING BOX
+   Word change hoga, box ka size nahi
+========================================================= */
+
+.typing-container {
+    position: relative !important;
+
+    display: block !important;
+
+    width: 30ch !important;
+    min-width: 30ch !important;
+    max-width: 30ch !important;
+
+    height: 40px !important;
+    min-height: 40px !important;
+
+    margin: 0 0 22px 0 !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    white-space: nowrap !important;
+
+    box-sizing: border-box !important;
+
+    overflow-anchor: none !important;
+
+    contain: strict !important;
+}
+
+
+/* Animated word */
+.typing-container .typing-text {
+    position: absolute !important;
+
+    left: 0 !important;
+    top: 0 !important;
+
+    display: block !important;
+
+    width: max-content !important;
+
+    max-width: none !important;
+
+    min-width: 0 !important;
+
+    height: 40px !important;
+
+    line-height: 40px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    white-space: nowrap !important;
+}
+
+
+/* Cursor */
+.typing-container .cursor {
+    display: none !important;
+}
+
+
+/* =========================================================
+   NAVBAR
+   Scrollbar aaye ya na aaye — size same rahe
+========================================================= */
+
+.glass-nav {
+    width: min(calc(100vw - 32px), 1500px) !important;
+
+    max-width: 1500px !important;
+
+    overflow-anchor: none !important;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero-section {
+    overflow-x: clip !important;
+
+    overflow-anchor: none !important;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .typing-container {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+
+        height: 38px !important;
+        min-height: 38px !important;
+    }
+
+    .typing-container .typing-text {
+        height: 38px !important;
+
+        line-height: 38px !important;
+
+        font-size: 1.1rem !important;
+    }
+
+    .glass-nav {
+        width: calc(100vw - 16px) !important;
+    }
+}
