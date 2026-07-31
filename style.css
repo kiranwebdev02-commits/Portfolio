@@ -8783,3 +8783,117 @@ body.light-mode .glass-nav .nav-container {
     }
       
 }
+/* =========================================================
+   HOME + LOGO POSITION FINAL FIX
+   Navbar design untouched
+========================================================= */
+
+
+/* -------------------------
+   HOME SECTION
+------------------------- */
+
+.hero-section {
+    padding-top: 72px !important;
+    padding-bottom: 20px !important;
+
+    min-height: auto !important;
+}
+
+
+.hero-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+/* Hello, I'm → Kiran gap */
+
+.greeting {
+    margin-bottom: 6px !important;
+}
+
+
+.hero-title {
+    margin-top: 0 !important;
+    margin-bottom: 18px !important;
+}
+
+
+/* -------------------------
+   DESKTOP
+------------------------- */
+
+@media (min-width: 992px) {
+
+    .hero-section {
+        padding-top: 72px !important;
+    }
+
+    .hero-content {
+        margin-top: 0 !important;
+    }
+
+}
+
+
+/* -------------------------
+   TABLET
+------------------------- */
+
+@media (max-width: 991px) {
+
+    .hero-section {
+        padding-top: 82px !important;
+    }
+
+    .hero-content {
+        margin-top: 0 !important;
+    }
+
+}
+
+
+/* -------------------------
+   MOBILE
+------------------------- */
+
+@media (max-width: 767px) {
+
+    .hero-section {
+        padding-top: 68px !important;
+    }
+
+    .hero-content {
+        margin-top: 0 !important;
+    }
+
+    .greeting {
+        margin-bottom: 5px !important;
+    }
+
+    .hero-title {
+        margin-top: 0 !important;
+    }
+
+}
+
+
+/* =========================================================
+   LOGO — MOVE SLIGHTLY UP INSIDE NAVBAR
+   Navbar itself is NOT moved
+========================================================= */
+
+.glass-nav .logo {
+    transform: translateY(-2px) !important;
+}
+
+
+.glass-nav .logo-circle {
+    transform: translateY(-1px) !important;
+}
+
+
+.glass-nav .logo-text-area {
+    transform: translateY(-1px) !important;
+}
