@@ -7131,6 +7131,8 @@ body {
 
     position: relative !important;
 
+    top: -8px !important;   /* Pehle 10px tha */
+
     left: 0 !important;
     right: auto !important;
 
@@ -7141,17 +7143,13 @@ body {
     min-width: max-content !important;
 
     display: flex !important;
-
     align-items: center !important;
+    justify-content: flex-start !important;
 
     gap: 10px !important;
 
-    justify-self: start !important;
-
-    transform: none !important;
+    transform: translateY(-8px) !important;
 }
-
-
 /* Logo circle */
 
 .glass-nav .logo-circle {
@@ -8926,35 +8924,4 @@ body {
         width: calc(100vw - 16px) !important;
     }
 }
-/* Logo Alignment Fix */
 
-.logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    text-decoration:none;
-    margin-top:20px;
-}
-
-.logo-circle{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-shrink:0;
-}
-
-.logo-text-area{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-
-.logo-text-area h2{
-    margin:0;
-    line-height:1;
-}
-
-.logo-text-area span{
-    margin-top:2px;
-    line-height:1.1;
-}
