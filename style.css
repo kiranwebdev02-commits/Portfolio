@@ -8926,3 +8926,34 @@ body {
         width: calc(100vw - 16px) !important;
     }
 }
+/* Logo Alignment Fix */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+}
+
+.logo-circle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+}
+
+.logo-text-area{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.logo-text-area h2{
+    margin:0;
+    line-height:1;
+}
+
+.logo-text-area span{
+    margin-top:2px;
+    line-height:1.1;
+}
