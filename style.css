@@ -7131,7 +7131,7 @@ body {
 
     position: relative !important;
 
-    top: -4px !important;   /* Pehle 10px tha */
+    top: -2px !important;   /* Pehle 10px tha */
 
     left: 0 !important;
     right: auto !important;
@@ -7148,7 +7148,7 @@ body {
 
     gap: 10px !important;
 
-    transform: translateY(-4px) !important;
+    transform: translateY(-2px) !important;
 }
 /* Logo circle */
 
