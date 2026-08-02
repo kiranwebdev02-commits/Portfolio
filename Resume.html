@@ -1,0 +1,3955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Kiran Goswami - Web Developer Resume">
+
+    <title>Kiran Goswami | Web Developer Resume</title>
+    <link rel="icon"
+      type="image/svg+xml"
+      href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="%23070B17"/><rect x="6" y="6" width="52" height="52" rx="12" fill="none" stroke="%238B5CF6" stroke-width="4"/><text x="32" y="40" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="%2306B6D4">KG</text></svg>'>
+
+    <link rel="stylesheet"
+          href="resume.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+          <style>
+            :root {
+
+    --bg: #070b17;
+    --bg-soft: #0c1224;
+
+    --card: rgba(15, 23, 42, 0.72);
+
+    --border: rgba(139, 92, 246, 0.25);
+
+    --text: #f4f7ff;
+    --muted: #a7b0c4;
+
+    --purple: #8b5cf6;
+    --purple-dark: #6d28d9;
+
+    --cyan: #06b6d4;
+
+    --gradient:
+        linear-gradient(
+            135deg,
+            #8b5cf6,
+            #06b6d4
+        );
+
+    --shadow:
+        0 15px 40px
+        rgba(0,0,0,0.3);
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    font-family: "Inter", sans-serif;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(124,58,237,0.12),
+            transparent 30%
+        ),
+
+        var(--bg);
+
+    color: var(--text);
+
+    line-height: 1.6;
+
+    min-height: 100vh;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+button {
+    font-family: inherit;
+}
+
+
+/* =========================
+   MAIN WRAPPER
+========================= */
+
+.resume-wrapper {
+
+    width: min(1500px, 96%);
+
+    margin: 25px auto;
+
+    display: grid;
+
+    grid-template-columns:
+        310px 1fr;
+
+    background:
+        rgba(7,11,23,0.95);
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 25px 80px
+        rgba(0,0,0,0.45);
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+
+    background:
+
+        linear-gradient(
+            180deg,
+            rgba(124,58,237,0.11),
+            rgba(6,182,212,0.03)
+        );
+
+    border-right:
+        1px solid var(--border);
+
+    padding: 35px 25px;
+}
+
+
+/* Profile */
+
+.profile {
+
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+
+.profile-image {
+
+    width: 150px;
+    height: 150px;
+
+    margin: 0 auto 18px;
+
+    border-radius: 30px;
+
+    padding: 3px;
+
+    background: var(--gradient);
+
+    box-shadow:
+        0 0 30px
+        rgba(124,58,237,0.25);
+}
+
+
+.profile-image img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 27px;
+
+    background:
+        #111827;
+}
+
+
+.profile h1 {
+
+    font-size: 25px;
+
+    font-weight: 800;
+
+    letter-spacing: -0.5px;
+}
+
+
+.profile .role {
+
+    color: var(--cyan);
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.5px;
+
+    margin-top: 5px;
+}
+
+
+/* Sections */
+
+.side-section {
+
+    padding:
+        22px 0;
+
+    border-top:
+        1px solid
+        rgba(255,255,255,0.07);
+}
+
+
+.side-section h2 {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    font-size: 15px;
+
+    color: #c4b5fd;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 18px;
+}
+
+
+.side-section h2 i {
+
+    color: var(--cyan);
+}
+
+
+/* Contact */
+
+.contact-item {
+
+    display: flex;
+
+    gap: 12px;
+
+    margin-bottom: 15px;
+
+    align-items: flex-start;
+}
+
+
+.contact-item > i {
+
+    color: var(--purple);
+
+    width: 18px;
+
+    margin-top: 3px;
+}
+
+
+.contact-item span {
+
+    display: block;
+
+    font-size: 10px;
+
+    color: #7f8aa3;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.8px;
+}
+
+
+.contact-item a,
+.contact-item p {
+
+    font-size: 12px;
+
+    color: #e4e8f3;
+
+    word-break: break-word;
+}
+
+
+.contact-item a:hover {
+
+    color: var(--cyan);
+}
+
+
+/* Skills */
+
+.skill-group {
+
+    margin-bottom: 24px;
+}
+
+
+.skill-group h3 {
+
+    font-size: 11px;
+
+    color: var(--cyan);
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 13px;
+}
+
+
+.skill {
+
+    margin-bottom: 14px;
+}
+
+
+.skill > div:first-child {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 8px;
+
+    margin-bottom: 6px;
+
+    font-size: 11px;
+}
+
+
+.skill b {
+
+    color: #a78bfa;
+
+    font-weight: 600;
+}
+
+
+.progress {
+
+    width: 100%;
+
+    height: 5px;
+
+    border-radius: 99px;
+
+    background:
+        rgba(255,255,255,0.07);
+
+    overflow: hidden;
+}
+
+
+.progress span {
+
+    display: block;
+
+    height: 100%;
+
+    border-radius: inherit;
+
+    background: var(--gradient);
+
+    box-shadow:
+        0 0 10px
+        rgba(139,92,246,0.3);
+}
+
+
+/* Languages */
+
+.language {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 8px 0;
+
+    font-size: 12px;
+
+    border-bottom:
+        1px solid
+        rgba(255,255,255,0.04);
+}
+
+
+.language:last-child {
+    border-bottom: none;
+}
+
+
+.language b {
+
+    color: #a5b4fc;
+
+    font-size: 11px;
+
+    font-weight: 500;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.main-content {
+
+    padding: 45px 55px;
+
+    min-width: 0;
+}
+
+
+/* Header */
+
+.resume-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+    align-items: flex-start;
+
+    padding-bottom: 28px;
+
+    border-bottom:
+        1px solid
+        rgba(255,255,255,0.08);
+}
+
+
+.small-title {
+
+    color: var(--cyan);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+
+.resume-header h1 {
+
+    font-size:
+        clamp(42px, 6vw, 68px);
+
+    line-height: 0.95;
+
+    letter-spacing:
+        -2.5px;
+
+    font-weight: 800;
+}
+
+
+.resume-header h1 span {
+
+    display: inline-block;
+
+    background: var(--gradient);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    color: transparent;
+}
+
+
+.resume-header h2 {
+
+    color: #c4b5fd;
+
+    font-size: 17px;
+
+    margin-top: 14px;
+
+    font-weight: 600;
+}
+
+
+.print-btn {
+
+    border: 1px solid var(--border);
+
+    background:
+        rgba(124,58,237,0.08);
+
+    color: white;
+
+    padding:
+        11px 17px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    transition: 0.25s ease;
+
+    white-space: nowrap;
+}
+
+
+.print-btn:hover {
+
+    border-color: var(--cyan);
+
+    background:
+        rgba(6,182,212,0.1);
+
+    transform:
+        translateY(-2px);
+}
+
+
+/* Sections */
+
+.content-section {
+
+    padding:
+        30px 0;
+
+    border-bottom:
+        1px solid
+        rgba(255,255,255,0.07);
+}
+
+
+.section-title {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 20px;
+}
+
+
+.section-icon {
+
+    width: 38px;
+    height: 38px;
+
+    border-radius: 11px;
+
+    display: grid;
+
+    place-items: center;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(139,92,246,0.2),
+            rgba(6,182,212,0.12)
+        );
+
+    border:
+        1px solid
+        var(--border);
+
+    box-shadow:
+        0 0 20px
+        rgba(124,58,237,0.12);
+}
+
+
+.section-title h2 {
+
+    font-size: 19px;
+
+    font-weight: 700;
+}
+
+
+/* Profile text */
+
+.profile-text {
+
+    color: #bdc5d7;
+
+    font-size: 14px;
+
+    max-width: 950px;
+}
+
+
+/* =========================
+   TIMELINE
+========================= */
+
+.timeline {
+
+    position: relative;
+
+    padding-left: 25px;
+}
+
+
+.timeline::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+
+    width: 1px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            var(--purple),
+            var(--cyan)
+        );
+}
+
+
+.timeline-item {
+
+    position: relative;
+
+    padding-bottom: 25px;
+}
+
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+
+.timeline-dot {
+
+    position: absolute;
+
+    left: -25px;
+    top: 5px;
+
+    width: 11px;
+    height: 11px;
+
+    border-radius: 50%;
+
+    background:
+        var(--gradient);
+
+    box-shadow:
+        0 0 12px
+        rgba(139,92,246,0.55);
+}
+
+
+.timeline-head {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+
+.timeline-head h3 {
+
+    font-size: 15px;
+
+    color: #f5f7ff;
+}
+
+
+.timeline-head span {
+
+    color: var(--cyan);
+
+    font-size: 12px;
+
+    white-space: nowrap;
+}
+
+
+.timeline-content h4 {
+
+    color: #a78bfa;
+
+    font-size: 12px;
+
+    margin-top: 5px;
+}
+
+
+.timeline-content p {
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    margin-top: 6px;
+
+    max-width: 900px;
+}
+
+
+/* =========================
+   PROJECTS
+========================= */
+
+.project-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 16px;
+}
+
+
+.project-card {
+
+    padding: 19px;
+
+    background:
+        var(--card);
+
+    border:
+        1px solid
+        rgba(139,92,246,0.18);
+
+    border-radius: 17px;
+
+    transition:
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
+}
+
+
+.project-card:hover {
+
+    transform:
+        translateY(-4px);
+
+    border-color:
+        rgba(6,182,212,0.45);
+
+    box-shadow:
+        0 18px 40px
+        rgba(0,0,0,0.18);
+}
+
+
+.project-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    align-items: flex-start;
+}
+
+
+.project-top h3 {
+
+    font-size: 14px;
+}
+
+
+.project-type {
+
+    display: inline-block;
+
+    color: #93c5fd;
+
+    font-size: 10px;
+
+    margin-top: 4px;
+}
+
+
+.project-top > i {
+
+    color: var(--cyan);
+
+    font-size: 20px;
+}
+
+
+.project-card > p {
+
+    color: var(--muted);
+
+    font-size: 11px;
+
+    margin-top: 12px;
+}
+
+
+.tech-list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 6px;
+
+    margin-top: 14px;
+}
+
+
+.tech-list span {
+
+    padding:
+        5px 9px;
+
+    border-radius: 99px;
+
+    font-size: 9px;
+
+    color: #c4b5fd;
+
+    border:
+        1px solid
+        rgba(139,92,246,0.2);
+
+    background:
+        rgba(139,92,246,0.06);
+}
+
+
+/* =========================
+   CERTIFICATES
+========================= */
+
+.certificate-list {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 12px;
+}
+
+
+.certificate {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    padding: 14px;
+
+    border-radius: 14px;
+
+    background:
+        rgba(255,255,255,0.02);
+
+    border:
+        1px solid
+        rgba(255,255,255,0.06);
+}
+
+
+.certificate > i {
+
+    color: #fbbf24;
+
+    margin-top: 3px;
+}
+
+
+.certificate h3 {
+
+    font-size: 12px;
+}
+
+
+.certificate p {
+
+    color: #8f9ab1;
+
+    font-size: 10px;
+
+    margin-top: 3px;
+}
+
+
+/* =========================
+   TECHNICAL SKILLS
+========================= */
+
+.technical-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 12px;
+}
+
+
+.technical-box {
+
+    padding: 17px;
+
+    border-radius: 15px;
+
+    background:
+        rgba(255,255,255,0.02);
+
+    border:
+        1px solid
+        rgba(139,92,246,0.17);
+
+    min-height: 140px;
+}
+
+
+.technical-box > i {
+
+    color: var(--cyan);
+
+    font-size: 18px;
+
+    margin-bottom: 12px;
+}
+
+
+.technical-box h3 {
+
+    font-size: 12px;
+
+    margin-bottom: 7px;
+}
+
+
+.technical-box p {
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.resume-footer {
+
+    padding-top: 25px;
+
+    text-align: center;
+}
+
+
+.resume-footer p {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    color: #c4b5fd;
+}
+
+
+.resume-footer span {
+
+    font-size: 10px;
+
+    color: #707b91;
+
+    display: block;
+
+    margin-top: 4px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1200px) {
+
+    .resume-wrapper {
+
+        grid-template-columns:
+            270px 1fr;
+    }
+
+    .main-content {
+
+        padding:
+            40px 35px;
+    }
+
+    .technical-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 950px) {
+
+    .resume-wrapper {
+
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+
+        border-right: none;
+
+        border-bottom:
+            1px solid
+            var(--border);
+    }
+
+    .profile {
+
+        display: grid;
+
+        grid-template-columns:
+            auto 1fr;
+
+        align-items: center;
+
+        column-gap: 18px;
+
+        text-align: left;
+    }
+
+    .profile-image {
+
+        grid-row:
+            span 2;
+
+        margin: 0;
+    }
+
+    .profile h1 {
+
+        align-self: end;
+    }
+
+    .profile .role {
+
+        align-self: start;
+    }
+
+    .project-grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .resume-wrapper {
+
+        width: 100%;
+
+        margin: 0;
+
+        border-radius: 0;
+
+        border-left: none;
+
+        border-right: none;
+    }
+
+    .sidebar,
+    .main-content {
+
+        padding:
+            25px 18px;
+    }
+
+
+    .resume-header {
+
+        flex-direction: column;
+
+        gap: 18px;
+    }
+
+
+    .print-btn {
+
+        width: fit-content;
+    }
+
+
+    .resume-header h1 {
+
+        font-size: 42px;
+
+        letter-spacing: -1.7px;
+    }
+
+
+    .timeline-head {
+
+        flex-direction: column;
+
+        gap: 3px;
+    }
+
+
+    .certificate-list {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .technical-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    body {
+
+        font-size: 14px;
+    }
+
+
+    .profile {
+
+        display: block;
+
+        text-align: center;
+    }
+
+
+    .profile-image {
+
+        margin:
+            0 auto 16px;
+    }
+
+
+    .resume-header h1 {
+
+        font-size: 35px;
+    }
+
+
+    .resume-header h2 {
+
+        font-size: 15px;
+    }
+
+
+    .section-title h2 {
+
+        font-size: 17px;
+    }
+
+
+    .profile-text {
+
+        font-size: 12px;
+    }
+
+
+    .project-card {
+
+        padding: 15px;
+    }
+
+}
+
+
+/* =========================
+   PRINT
+========================= */
+
+@media print {
+
+    body {
+
+        background: white;
+
+        color: #111;
+    }
+
+
+    .resume-wrapper {
+
+        width: 100%;
+
+        margin: 0;
+
+        border: none;
+
+        border-radius: 0;
+
+        box-shadow: none;
+    }
+
+
+    .print-btn {
+
+        display: none;
+    }
+
+
+    .sidebar {
+
+        background: #f7f8fb;
+
+        color: #111;
+
+        border-color: #ddd;
+    }
+
+
+    .main-content {
+
+        background: white;
+
+        color: #111;
+    }
+
+
+    .profile-text,
+    .timeline-content p,
+    .project-card > p,
+    .technical-box p {
+
+        color: #444;
+    }
+
+
+    .project-card,
+    .certificate,
+    .technical-box {
+
+        background: white;
+
+        border-color: #ddd;
+
+        box-shadow: none;
+    }
+
+
+    .resume-footer {
+
+        color: #444;
+    }
+
+}
+/* ==============================
+   A4 RESUME / CV LAYOUT
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+
+    background: #dfe3ea;
+
+    font-family: "Inter", sans-serif;
+    color: #111827;
+}
+
+
+/* A4 SIZE */
+.resume-wrapper {
+    width: 210mm;
+    min-height: 297mm;
+
+    max-width: 210mm;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 68mm 1fr;
+
+    background: #070b17;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(139, 92, 246, 0.25);
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ==============================
+   SIDEBAR
+================================ */
+
+.sidebar {
+    width: 68mm;
+
+    padding: 22px 18px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #11152d 0%,
+            #0b1022 100%
+        );
+
+    border-right:
+        1px solid
+        rgba(139, 92, 246, 0.22);
+}
+
+
+/* ==============================
+   MAIN CONTENT
+================================ */
+
+.main-content {
+    width: 142mm;
+
+    min-width: 0;
+
+    padding: 24px 24px;
+
+    background: #070b17;
+}
+
+
+/* ==============================
+   PROFILE IMAGE
+================================ */
+
+.profile-image {
+    width: 115px;
+    height: 115px;
+
+    margin: 0 auto 14px;
+
+    border-radius: 22px;
+
+    padding: 3px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #8b5cf6,
+            #06b6d4
+        );
+
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 19px;
+}
+
+
+/* ==============================
+   TYPOGRAPHY
+================================ */
+
+.profile h1 {
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+.profile .role {
+    font-size: 10px;
+    letter-spacing: 1.3px;
+}
+
+
+/* Sidebar headings */
+
+.side-section h2 {
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+
+.contact-item {
+    gap: 9px;
+    margin-bottom: 11px;
+}
+
+.contact-item span {
+    font-size: 8px;
+}
+
+.contact-item a,
+.contact-item p {
+    font-size: 9px;
+    line-height: 1.4;
+}
+
+
+/* Skills */
+
+.skill-group {
+    margin-bottom: 16px;
+}
+
+.skill-group h3 {
+    font-size: 8px;
+    margin-bottom: 8px;
+}
+
+.skill {
+    margin-bottom: 9px;
+}
+
+.skill > div:first-child {
+    font-size: 8px;
+    margin-bottom: 4px;
+}
+
+.progress {
+    height: 4px;
+}
+
+
+/* Languages */
+
+.language {
+    font-size: 9px;
+    padding: 6px 0;
+}
+
+.language b {
+    font-size: 8px;
+}
+
+
+/* ==============================
+   HEADER
+================================ */
+
+.resume-header {
+    padding-bottom: 18px;
+}
+
+.small-title {
+    font-size: 8px;
+    letter-spacing: 1.8px;
+}
+
+.resume-header h1 {
+    font-size: 44px;
+    letter-spacing: -2px;
+}
+
+.resume-header h2 {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.print-btn {
+    font-size: 9px;
+    padding: 8px 12px;
+}
+
+
+/* ==============================
+   SECTIONS
+================================ */
+
+.content-section {
+    padding: 18px 0;
+}
+
+.section-title {
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.section-icon {
+    width: 29px;
+    height: 29px;
+
+    border-radius: 8px;
+
+    font-size: 11px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+}
+
+.profile-text {
+    font-size: 10px;
+    line-height: 1.65;
+}
+
+
+/* ==============================
+   EDUCATION
+================================ */
+
+.timeline {
+    padding-left: 19px;
+}
+
+.timeline-item {
+    padding-bottom: 16px;
+}
+
+.timeline-dot {
+    left: -19px;
+
+    width: 8px;
+    height: 8px;
+}
+
+.timeline-head h3 {
+    font-size: 10px;
+}
+
+.timeline-head span {
+    font-size: 8px;
+}
+
+.timeline-content h4 {
+    font-size: 8px;
+}
+
+.timeline-content p {
+    font-size: 8px;
+    line-height: 1.5;
+}
+
+
+/* ==============================
+   PROJECTS
+================================ */
+
+.project-grid {
+    gap: 9px;
+}
+
+.project-card {
+    padding: 11px;
+
+    border-radius: 9px;
+}
+
+.project-top h3 {
+    font-size: 10px;
+}
+
+.project-type {
+    font-size: 7px;
+}
+
+.project-top > i {
+    font-size: 13px;
+}
+
+.project-card > p {
+    font-size: 8px;
+    line-height: 1.5;
+    margin-top: 7px;
+}
+
+.tech-list {
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.tech-list span {
+    padding: 3px 6px;
+    font-size: 7px;
+}
+
+
+/* ==============================
+   CERTIFICATES
+================================ */
+
+.certificate-list {
+    gap: 7px;
+}
+
+.certificate {
+    padding: 9px;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.certificate h3 {
+    font-size: 9px;
+}
+
+.certificate p {
+    font-size: 7px;
+}
+
+
+/* ==============================
+   TECHNICAL SKILLS
+================================ */
+
+.technical-grid {
+    gap: 8px;
+}
+
+.technical-box {
+    min-height: 90px;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.technical-box > i {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.technical-box h3 {
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+
+.technical-box p {
+    font-size: 7px;
+    line-height: 1.5;
+}
+
+
+/* ==============================
+   FOOTER
+================================ */
+
+.resume-footer {
+    padding-top: 15px;
+}
+
+.resume-footer p {
+    font-size: 8px;
+}
+
+.resume-footer span {
+    font-size: 7px;
+}
+
+
+/* ==============================
+   PRINT
+================================ */
+
+@media print {
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+
+    .resume-wrapper {
+        width: 210mm;
+        min-height: 297mm;
+        max-width: 210mm;
+
+        margin: 0;
+
+        box-shadow: none;
+        border: none;
+    }
+
+    .print-btn {
+        display: none !important;
+    }
+}
+
+
+/* ==============================
+   MOBILE PREVIEW
+================================ */
+
+@media (max-width: 850px) {
+
+    body {
+        padding: 15px 8px;
+    }
+
+    .resume-wrapper {
+        width: 100%;
+        max-width: 794px;
+
+        min-height: auto;
+
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom:
+            1px solid
+            rgba(139, 92, 246, 0.22);
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .profile {
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* =========================================
+   FIX RESUME NAME VISIBILITY
+========================================= */
+
+.profile h1 {
+    color: #ffffff !important;
+    font-weight: 800;
+}
+
+.resume-header h1 {
+    color: #ffffff !important;
+}
+
+.resume-header h1 span {
+    background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* =========================================
+   MAKE RESUME SLIGHTLY SHORTER
+========================================= */
+
+.resume-wrapper {
+    min-height: auto;
+}
+
+.sidebar {
+    padding: 18px 18px;
+}
+
+.main-content {
+    padding: 20px 22px;
+}
+
+.content-section {
+    padding: 14px 0;
+}
+
+.section-title {
+    margin-bottom: 9px;
+}
+
+.profile-text {
+    font-size: 9.5px;
+    line-height: 1.5;
+}
+
+.timeline-item {
+    padding-bottom: 11px;
+}
+
+.timeline-content p {
+    font-size: 7.5px;
+    line-height: 1.4;
+}
+
+
+/* =========================================
+   COMPACT PROJECT CARDS
+========================================= */
+
+.project-grid {
+    gap: 7px;
+}
+
+.project-card {
+    padding: 9px;
+}
+
+.project-card > p {
+    font-size: 7.5px;
+    line-height: 1.4;
+    margin-top: 5px;
+}
+
+.tech-list {
+    margin-top: 6px;
+}
+
+
+/* =========================================
+   CERTIFICATES — COMPACT & PROFESSIONAL
+========================================= */
+
+.certificate-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+
+.certificate {
+    min-height: 0;
+    padding: 7px 8px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+
+    background: rgba(255,255,255,0.018);
+    border: 1px solid rgba(139,92,246,0.14);
+}
+
+.certificate > i {
+    color: #8b5cf6;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.certificate h3 {
+    font-size: 8px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.certificate p {
+    font-size: 6.8px;
+    line-height: 1.25;
+    color: #9ca8bd;
+    margin-top: 2px;
+}
+
+
+/* =========================================
+   HEADER HEIGHT
+========================================= */
+
+.resume-header {
+    padding-bottom: 14px;
+}
+
+.resume-header h1 {
+    font-size: 40px;
+}
+
+.resume-header h2 {
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+
+/* =========================================
+   PROFILE AREA
+========================================= */
+
+.profile {
+    margin-bottom: 24px;
+}
+
+.profile-image {
+    width: 105px;
+    height: 105px;
+}
+
+.profile h1 {
+    font-size: 19px;
+}
+
+.profile .role {
+    font-size: 9px;
+}
+
+
+/* =========================================
+   SIDEBAR CONTACT COMPACT
+========================================= */
+
+.side-section {
+    padding: 16px 0;
+}
+
+.side-section h2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-item {
+    margin-bottom: 8px;
+}
+
+.contact-item a,
+.contact-item p {
+    font-size: 8.5px;
+}
+        /* =========================================
+   FIX RESUME TEXT VISIBILITY
+   Add this at the VERY END of resume.css
+========================================= */
+
+/* Main content text */
+.main-content {
+    color: #f8fafc !important;
+}
+
+
+/* All section headings */
+.section-title h2 {
+    color: #ffffff !important;
+}
+
+
+/* Section icons */
+.section-icon {
+    color: #ffffff !important;
+}
+
+
+/* Professional profile */
+.profile-text {
+    color: #dbe4f0 !important;
+}
+
+
+/* Education */
+.timeline-head h3 {
+    color: #ffffff !important;
+}
+
+.timeline-head span {
+    color: #06b6d4 !important;
+}
+
+.timeline-content h4 {
+    color: #a78bfa !important;
+}
+
+.timeline-content p {
+    color: #cbd5e1 !important;
+}
+
+
+/* Projects */
+.project-card {
+    color: #ffffff !important;
+}
+
+.project-top h3 {
+    color: #ffffff !important;
+}
+
+.project-type {
+    color: #22d3ee !important;
+}
+
+.project-card > p {
+    color: #cbd5e1 !important;
+}
+
+.tech-list span {
+    color: #ddd6fe !important;
+}
+
+
+/* Certificates */
+.certificate h3 {
+    color: #ffffff !important;
+}
+
+.certificate p {
+    color: #cbd5e1 !important;
+}
+
+
+/* Technical Skills */
+.technical-box {
+    color: #ffffff !important;
+}
+
+.technical-box h3 {
+    color: #ffffff !important;
+}
+
+.technical-box p {
+    color: #cbd5e1 !important;
+}
+
+
+/* Sidebar Skills */
+.skill-group h3 {
+    color: #22d3ee !important;
+}
+
+.skill > div:first-child span {
+    color: #ffffff !important;
+}
+
+.skill b {
+    color: #a78bfa !important;
+}
+
+
+/* Sidebar text */
+.contact-item a,
+.contact-item p {
+    color: #f1f5f9 !important;
+}
+
+.contact-item span {
+    color: #94a3b8 !important;
+}
+
+
+/* Languages */
+.language span {
+    color: #ffffff !important;
+}
+
+.language b {
+    color: #c4b5fd !important;
+}
+
+
+/* Footer */
+.resume-footer p {
+    color: #c4b5fd !important;
+}
+
+.resume-footer span {
+    color: #94a3b8 !important;
+}
+
+
+/* Profile name */
+.profile h1 {
+    color: #ffffff !important;
+}
+
+
+/* Resume main name */
+.resume-header h1 {
+    color: #ffffff !important;
+}
+
+
+/* Web Developer title */
+.resume-header h2 {
+    color: #c4b5fd !important;
+}
+/* =========================================
+   PRINT / PDF - KEEP DARK RESUME
+========================================= */
+
+@media print {
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    html,
+    body {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0;
+        padding: 0;
+
+        background: #070b17 !important;
+
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .resume-wrapper {
+        width: 210mm;
+        min-height: 297mm;
+        max-width: 210mm;
+
+        margin: 0;
+
+        background: #070b17 !important;
+
+        border: none;
+        border-radius: 0;
+
+        box-shadow: none;
+    }
+
+    .sidebar {
+        background:
+            linear-gradient(
+                180deg,
+                #11152d 0%,
+                #0b1022 100%
+            ) !important;
+
+        color: #ffffff !important;
+    }
+
+    .main-content {
+        background: #070b17 !important;
+        color: #ffffff !important;
+    }
+
+    /* Keep text visible */
+    .profile h1,
+    .resume-header h1,
+    .resume-header h2,
+    .section-title h2,
+    .timeline-head h3,
+    .project-top h3,
+    .certificate h3,
+    .technical-box h3 {
+        color: #ffffff !important;
+    }
+
+    .profile-text,
+    .timeline-content p,
+    .project-card > p,
+    .technical-box p {
+        color: #cbd5e1 !important;
+    }
+
+    .timeline-content h4,
+    .timeline-head span {
+        color: #06b6d4 !important;
+    }
+
+    .certificate p,
+    .contact-item span,
+    .resume-footer span {
+        color: #94a3b8 !important;
+    }
+
+    /* Hide print button */
+    .print-btn {
+        display: none !important;
+    }
+}
+/* =========================================
+   FINAL PRINT / PDF - SINGLE A4 PAGE
+========================================= */
+
+@media print {
+
+    @page {
+        size: A4 portrait;
+        margin: 0;
+    }
+
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        background: #070b17 !important;
+
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    body {
+        overflow: hidden !important;
+    }
+
+    /* Main A4 page */
+    .resume-wrapper {
+        width: 210mm !important;
+        height: 297mm !important;
+        min-height: 297mm !important;
+        max-width: 210mm !important;
+
+        margin: 0 !important;
+
+        display: grid !important;
+        grid-template-columns: 68mm 142mm !important;
+
+        overflow: hidden !important;
+
+        background: #070b17 !important;
+
+        border: none !important;
+        border-radius: 0 !important;
+
+        box-shadow: none !important;
+
+        /* Important: shrink complete resume to one page */
+        zoom: 0.80;
+        transform-origin: top left;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        width: 68mm !important;
+
+        padding: 15px 16px !important;
+
+        background:
+            linear-gradient(
+                180deg,
+                #11152d 0%,
+                #0b1022 100%
+            ) !important;
+
+        color: #ffffff !important;
+
+        border-right:
+            1px solid
+            rgba(139,92,246,0.25) !important;
+    }
+
+    /* Main */
+    .main-content {
+        width: 142mm !important;
+
+        padding: 17px 19px !important;
+
+        background: #070b17 !important;
+
+        color: #ffffff !important;
+    }
+
+    /* -------------------------------------
+       HEADER
+    ------------------------------------- */
+
+    .resume-header {
+        padding-bottom: 11px !important;
+    }
+
+    .resume-header h1 {
+        font-size: 36px !important;
+        color: #ffffff !important;
+    }
+
+    .resume-header h2 {
+        font-size: 12px !important;
+        color: #c4b5fd !important;
+        margin-top: 4px !important;
+    }
+
+    .small-title {
+        font-size: 7px !important;
+    }
+
+    .print-btn {
+        display: none !important;
+    }
+
+
+    /* -------------------------------------
+       PROFILE
+    ------------------------------------- */
+
+    .content-section {
+        padding: 10px 0 !important;
+    }
+
+    .section-title {
+        margin-bottom: 7px !important;
+        gap: 7px !important;
+    }
+
+    .section-icon {
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 9px !important;
+    }
+
+    .section-title h2 {
+        font-size: 12px !important;
+        color: #ffffff !important;
+    }
+
+    .profile-text {
+        font-size: 8px !important;
+        line-height: 1.4 !important;
+        color: #d1d9e6 !important;
+    }
+
+
+    /* -------------------------------------
+       EDUCATION
+    ------------------------------------- */
+
+    .timeline {
+        padding-left: 16px !important;
+    }
+
+    .timeline-item {
+        padding-bottom: 8px !important;
+    }
+
+    .timeline-dot {
+        left: -16px !important;
+
+        width: 7px !important;
+        height: 7px !important;
+    }
+
+    .timeline-head h3 {
+        font-size: 9px !important;
+        color: #ffffff !important;
+    }
+
+    .timeline-head span {
+        font-size: 7px !important;
+        color: #06b6d4 !important;
+    }
+
+    .timeline-content h4 {
+        font-size: 7px !important;
+        color: #a78bfa !important;
+    }
+
+    .timeline-content p {
+        font-size: 7px !important;
+        line-height: 1.35 !important;
+        color: #cbd5e1 !important;
+    }
+
+
+    /* -------------------------------------
+       PROJECTS
+    ------------------------------------- */
+
+    .project-grid {
+        gap: 5px !important;
+    }
+
+    .project-card {
+        padding: 7px !important;
+
+        background:
+            rgba(15,23,42,0.75) !important;
+
+        border:
+            1px solid
+            rgba(139,92,246,0.22) !important;
+
+        border-radius: 7px !important;
+
+        color: #ffffff !important;
+
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    .project-top h3 {
+        font-size: 8px !important;
+        color: #ffffff !important;
+    }
+
+    .project-type {
+        font-size: 6px !important;
+        color: #22d3ee !important;
+    }
+
+    .project-top > i {
+        font-size: 10px !important;
+    }
+
+    .project-card > p {
+        font-size: 6.5px !important;
+        line-height: 1.3 !important;
+
+        margin-top: 4px !important;
+
+        color: #cbd5e1 !important;
+    }
+
+    .tech-list {
+        gap: 3px !important;
+        margin-top: 4px !important;
+    }
+
+    .tech-list span {
+        padding: 2px 5px !important;
+        font-size: 5.5px !important;
+
+        color: #ddd6fe !important;
+
+        background:
+            rgba(139,92,246,0.08) !important;
+
+        border:
+            1px solid
+            rgba(139,92,246,0.18) !important;
+    }
+
+
+    /* -------------------------------------
+       CERTIFICATES
+    ------------------------------------- */
+
+    .certificate-list {
+        grid-template-columns:
+            repeat(2, 1fr) !important;
+
+        gap: 4px !important;
+    }
+
+    .certificate {
+        padding: 5px 6px !important;
+
+        background:
+            rgba(255,255,255,0.02) !important;
+
+        border:
+            1px solid
+            rgba(139,92,246,0.15) !important;
+
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    .certificate > i {
+        font-size: 8px !important;
+    }
+
+    .certificate h3 {
+        font-size: 7px !important;
+        color: #ffffff !important;
+    }
+
+    .certificate p {
+        font-size: 5.8px !important;
+        color: #cbd5e1 !important;
+    }
+
+
+    /* -------------------------------------
+       TECHNICAL SKILLS
+    ------------------------------------- */
+
+    .technical-grid {
+        grid-template-columns:
+            repeat(4, 1fr) !important;
+
+        gap: 5px !important;
+    }
+
+    .technical-box {
+        min-height: 65px !important;
+
+        padding: 7px !important;
+
+        background:
+            rgba(255,255,255,0.02) !important;
+
+        border:
+            1px solid
+            rgba(139,92,246,0.16) !important;
+    }
+
+    .technical-box > i {
+        font-size: 9px !important;
+        margin-bottom: 4px !important;
+    }
+
+    .technical-box h3 {
+        font-size: 7px !important;
+        color: #ffffff !important;
+    }
+
+    .technical-box p {
+        font-size: 5.7px !important;
+        line-height: 1.3 !important;
+        color: #cbd5e1 !important;
+    }
+
+
+    /* -------------------------------------
+       SIDEBAR
+    ------------------------------------- */
+
+    .profile {
+        margin-bottom: 16px !important;
+    }
+
+    .profile-image {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .profile h1 {
+        font-size: 17px !important;
+        color: #ffffff !important;
+    }
+
+    .profile .role {
+        font-size: 7px !important;
+    }
+
+    .side-section {
+        padding: 11px 0 !important;
+    }
+
+    .side-section h2 {
+        font-size: 8px !important;
+        margin-bottom: 7px !important;
+    }
+
+    .contact-item {
+        margin-bottom: 6px !important;
+        gap: 7px !important;
+    }
+
+    .contact-item span {
+        font-size: 6px !important;
+        color: #94a3b8 !important;
+    }
+
+    .contact-item a,
+    .contact-item p {
+        font-size: 6.8px !important;
+        color: #f1f5f9 !important;
+    }
+
+    .skill-group {
+        margin-bottom: 10px !important;
+    }
+
+    .skill-group h3 {
+        font-size: 6.5px !important;
+    }
+
+    .skill {
+        margin-bottom: 5px !important;
+    }
+
+    .skill > div:first-child {
+        font-size: 6.5px !important;
+    }
+
+    .progress {
+        height: 3px !important;
+    }
+
+    .language {
+        font-size: 6.8px !important;
+        padding: 4px 0 !important;
+    }
+
+    .language b {
+        font-size: 6px !important;
+    }
+
+
+    /* -------------------------------------
+       FOOTER
+    ------------------------------------- */
+
+    .resume-footer {
+        padding-top: 8px !important;
+    }
+
+    .resume-footer p {
+        font-size: 6.5px !important;
+    }
+
+    .resume-footer span {
+        font-size: 5.8px !important;
+    }
+}
+/* =========================================
+   FINAL PRINT CSS
+   A4 - NO CLIPPING - NO CUT CONTENT
+========================================= */
+
+@media print {
+
+    @page {
+        size: A4 portrait;
+        margin: 0;
+    }
+
+    html,
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+
+        width: 210mm !important;
+
+        background: #070b17 !important;
+
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    body {
+        overflow: visible !important;
+        height: auto !important;
+        min-height: auto !important;
+    }
+
+
+    /* MAIN RESUME */
+
+    .resume-wrapper {
+
+        width: 210mm !important;
+        max-width: 210mm !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        margin: 0 auto !important;
+
+        display: grid !important;
+
+        grid-template-columns:
+            68mm 142mm !important;
+
+        overflow: visible !important;
+
+        background: #070b17 !important;
+
+        border: none !important;
+        border-radius: 0 !important;
+
+        box-shadow: none !important;
+
+        zoom: 0.72 !important;
+
+        transform: none !important;
+    }
+
+
+    /* SIDEBAR */
+
+    .sidebar {
+        width: 68mm !important;
+
+        height: auto !important;
+
+        padding: 15px !important;
+
+        background:
+            linear-gradient(
+                180deg,
+                #11152d 0%,
+                #0b1022 100%
+            ) !important;
+
+        border-right:
+            1px solid
+            rgba(139,92,246,.25) !important;
+
+        color: #fff !important;
+    }
+
+
+    /* MAIN CONTENT */
+
+    .main-content {
+
+        width: 142mm !important;
+
+        height: auto !important;
+
+        min-height: 0 !important;
+
+        padding: 17px 18px !important;
+
+        background: #070b17 !important;
+
+        color: #fff !important;
+
+        overflow: visible !important;
+    }
+
+
+    /* HEADER */
+
+    .resume-header {
+        padding-bottom: 10px !important;
+    }
+
+    .resume-header h1 {
+        font-size: 36px !important;
+        color: #fff !important;
+    }
+
+    .resume-header h2 {
+        font-size: 12px !important;
+        color: #c4b5fd !important;
+    }
+
+    .small-title {
+        font-size: 7px !important;
+    }
+
+    .print-btn {
+        display: none !important;
+    }
+
+
+    /* SECTIONS */
+
+    .content-section {
+        padding: 8px 0 !important;
+
+        break-inside: auto !important;
+        page-break-inside: auto !important;
+    }
+
+    .section-title {
+        margin-bottom: 6px !important;
+    }
+
+    .section-title h2 {
+        font-size: 12px !important;
+        color: #fff !important;
+    }
+
+
+    /* PROFILE */
+
+    .profile-text {
+        font-size: 7.5px !important;
+        line-height: 1.32 !important;
+        color: #d1d9e6 !important;
+    }
+
+
+    /* EDUCATION */
+
+    .timeline-item {
+        padding-bottom: 6px !important;
+    }
+
+    .timeline-head h3 {
+        font-size: 8.5px !important;
+        color: #fff !important;
+    }
+
+    .timeline-head span {
+        font-size: 7px !important;
+        color: #06b6d4 !important;
+    }
+
+    .timeline-content h4 {
+        font-size: 7px !important;
+        color: #a78bfa !important;
+    }
+
+    .timeline-content p {
+        font-size: 6.3px !important;
+        line-height: 1.25 !important;
+        color: #cbd5e1 !important;
+    }
+
+
+    /* PROJECTS */
+
+    .project-grid {
+        gap: 4px !important;
+    }
+
+    .project-card {
+        padding: 6px !important;
+
+        height: auto !important;
+
+        background:
+            rgba(15,23,42,.75) !important;
+
+        border:
+            1px solid
+            rgba(139,92,246,.22) !important;
+    }
+
+    .project-top h3 {
+        font-size: 8px !important;
+        color: #fff !important;
+    }
+
+    .project-type {
+        font-size: 5.8px !important;
+        color: #22d3ee !important;
+    }
+
+    .project-card > p {
+        font-size: 6px !important;
+        line-height: 1.22 !important;
+        margin-top: 3px !important;
+        color: #cbd5e1 !important;
+    }
+
+    .tech-list {
+        margin-top: 3px !important;
+        gap: 3px !important;
+    }
+
+    .tech-list span {
+        padding: 2px 4px !important;
+        font-size: 5px !important;
+    }
+
+
+    /* CERTIFICATES */
+
+    .certificate-list {
+        grid-template-columns:
+            repeat(2, 1fr) !important;
+
+        gap: 3px !important;
+    }
+
+    .certificate {
+        padding: 4px 5px !important;
+
+        height: auto !important;
+
+        background:
+            rgba(255,255,255,.02) !important;
+
+        border:
+            1px solid
+            rgba(139,92,246,.15) !important;
+    }
+
+    .certificate h3 {
+        font-size: 6.5px !important;
+        color: #fff !important;
+    }
+
+    .certificate p {
+        font-size: 5.3px !important;
+        color: #cbd5e1 !important;
+    }
+
+
+    /* =====================================
+       TECHNICAL SKILLS
+    ===================================== */
+
+    .technical-grid {
+
+        display: grid !important;
+
+        grid-template-columns:
+            repeat(4, 1fr) !important;
+
+        gap: 4px !important;
+
+        height: auto !important;
+
+        overflow: visible !important;
+    }
+
+    .technical-box {
+
+        min-height: 55px !important;
+
+        height: auto !important;
+
+        padding: 6px !important;
+
+        background:
+            rgba(255,255,255,.02) !important;
+
+        border:
+            1px solid
+            rgba(139,92,246,.18) !important;
+
+        overflow: visible !important;
+    }
+
+    .technical-box > i {
+        font-size: 8px !important;
+        margin-bottom: 3px !important;
+    }
+
+    .technical-box h3 {
+        font-size: 6.5px !important;
+        margin-bottom: 2px !important;
+        color: #fff !important;
+    }
+
+    .technical-box p {
+        font-size: 5.2px !important;
+        line-height: 1.2 !important;
+        color: #cbd5e1 !important;
+    }
+
+
+    /* FOOTER */
+
+    .resume-footer {
+        padding-top: 6px !important;
+    }
+
+    .resume-footer p {
+        font-size: 6.5px !important;
+    }
+
+    .resume-footer span {
+        font-size: 5.5px !important;
+    }
+
+
+    /* SIDEBAR COMPACT */
+
+    .profile {
+        margin-bottom: 15px !important;
+    }
+
+    .profile-image {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .profile h1 {
+        font-size: 17px !important;
+        color: #fff !important;
+    }
+
+    .profile .role {
+        font-size: 7px !important;
+    }
+
+    .side-section {
+        padding: 10px 0 !important;
+    }
+
+    .side-section h2 {
+        font-size: 8px !important;
+        margin-bottom: 7px !important;
+    }
+
+    .contact-item {
+        margin-bottom: 6px !important;
+    }
+
+    .contact-item a,
+    .contact-item p {
+        font-size: 6.8px !important;
+        color: #fff !important;
+    }
+
+    .contact-item span {
+        font-size: 6px !important;
+    }
+
+    .skill-group {
+        margin-bottom: 9px !important;
+    }
+
+    .skill-group h3 {
+        font-size: 6.5px !important;
+    }
+
+    .skill {
+        margin-bottom: 5px !important;
+    }
+
+    .skill > div:first-child {
+        font-size: 6.5px !important;
+    }
+
+    .progress {
+        height: 3px !important;
+    }
+
+    .language {
+        font-size: 6.8px !important;
+        padding: 4px 0 !important;
+    }
+
+}
+        </style>
+</head>
+
+<body>
+
+    <div class="resume-wrapper">
+
+        <!-- =========================
+             SIDEBAR
+        ========================== -->
+
+        <aside class="sidebar">
+
+            <!-- Profile -->
+            <div class="profile">
+
+                <div class="profile-image">
+                    <img src="assets/images/profile.jpg"
+     alt="Kiran Goswami">
+                </div>
+
+                <h1>Kiran Goswami</h1>
+
+                <p class="role">
+                    Web Developer
+                </p>
+
+            </div>
+
+
+            <!-- Contact -->
+            <section class="side-section">
+
+                <h2>
+                    <i class="fa-solid fa-address-card"></i>
+                    Contact
+                </h2>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+                        <span>Email</span>
+                        <a href="mailto:kirangoswami.dev@gmail.com">
+                            kirangoswami.dev@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+
+                    <div>
+                        <span>Phone</span>
+
+                        <a href="tel:+923123456789">
+                            +92 312 3456789
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+                        <span>Location</span>
+
+                        <p>
+                            Mirpurkhas, Sindh, Pakistan
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+
+                    <div>
+                        <span>GitHub</span>
+
+                        <a href="#"
+                           target="_blank">
+                            GitHub Profile
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    <div>
+                        <span>LinkedIn</span>
+
+                        <a href="#"
+                           target="_blank">
+                            LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- Skills -->
+            <section class="side-section">
+
+                <h2>
+                    <i class="fa-solid fa-code"></i>
+                    Skills
+                </h2>
+
+
+                <div class="skill-group">
+
+                    <h3>Frontend</h3>
+
+                    <div class="skill">
+                        <div>
+                            <span>HTML5</span>
+                            <b>95%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:95%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>CSS3</span>
+                            <b>90%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:90%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>Bootstrap 5</span>
+                            <b>90%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:90%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>JavaScript</span>
+                            <b>85%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:85%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>jQuery</span>
+                            <b>75%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:75%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>AJAX</span>
+                            <b>70%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:70%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>Backend</h3>
+
+                    <div class="skill">
+                        <div>
+                            <span>PHP</span>
+                            <b>75%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:75%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>MySQL</span>
+                            <b>75%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:75%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>Learning</h3>
+
+                    <div class="skill">
+                        <div>
+                            <span>React</span>
+                            <b>Learning</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:55%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>Python</span>
+                            <b>Learning</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:50%"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div>
+                            <span>Data Analytics</span>
+                            <b>Learning</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:40%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>Design</h3>
+
+                    <div class="skill">
+                        <div>
+                            <span>UI / UX Design</span>
+                            <b>75%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:75%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Languages -->
+            <section class="side-section">
+
+                <h2>
+                    <i class="fa-solid fa-language"></i>
+                    Languages
+                </h2>
+
+                <div class="language">
+                    <span>English</span>
+                    <b>Professional</b>
+                </div>
+
+                <div class="language">
+                    <span>Urdu</span>
+                    <b>Fluent</b>
+                </div>
+
+                <div class="language">
+                    <span>Sindhi</span>
+                    <b>Fluent</b>
+                </div>
+
+            </section>
+
+        </aside>
+
+
+        <!-- =========================
+             MAIN CONTENT
+        ========================== -->
+
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="resume-header">
+
+                <div>
+
+                    <p class="small-title">
+                        PROFESSIONAL RESUME
+                    </p>
+
+                    <h1>
+                        Kiran
+                        <span>Goswami</span>
+                    </h1>
+
+                    <h2>
+                        Web Developer
+                    </h2>
+
+                </div>
+
+                <button class="print-btn"
+                        id="printResume">
+
+                    <i class="fa-solid fa-print"></i>
+
+                    Print Resume
+
+                </button>
+
+            </header>
+
+
+            <!-- Summary -->
+            <section class="content-section">
+
+                <div class="section-title">
+
+                    <span class="section-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+
+                    <h2>
+                        Professional Profile
+                    </h2>
+
+                </div>
+
+
+                <p class="profile-text">
+
+                    Web Developer with hands-on knowledge of
+                    modern frontend development and foundational
+                    backend technologies. Skilled in building
+                    responsive, user-friendly web interfaces using
+                    HTML5, CSS3, Bootstrap, JavaScript, jQuery
+                    and AJAX, with practical experience in PHP
+                    and MySQL. Interested in creating clean,
+                    accessible and visually polished web
+                    experiences while continuously developing
+                    skills in React, Python and Data Analytics.
+
+                </p>
+
+            </section>
+
+
+            <!-- Education -->
+            <section class="content-section">
+
+                <div class="section-title">
+
+                    <span class="section-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </span>
+
+                    <h2>
+                        Education
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-dot"></span>
+
+                        <div class="timeline-content">
+
+                            <div class="timeline-head">
+
+                                <h3>
+                                    6-Month Web Development Course
+                                </h3>
+
+                                <span>
+                                    2026
+                                </span>
+
+                            </div>
+
+                            <h4>
+                                Hunar Foundation
+                            </h4>
+
+                            <p>
+                                Completed practical training in
+                                HTML, CSS, Bootstrap, JavaScript,
+                                jQuery, AJAX, PHP and MySQL with
+                                hands-on web development projects.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-dot"></span>
+
+                        <div class="timeline-content">
+
+                            <div class="timeline-head">
+
+                                <h3>
+                                    Intermediate — Pre-Medical
+                                </h3>
+
+                                <span>
+                                    2024–2025
+                                </span>
+
+                            </div>
+
+                            <h4>
+                                BISE Mirpurkhas
+                            </h4>
+
+                            <p>
+                                Developed a strong academic foundation
+                                in science, analytical thinking,
+                                discipline and continuous learning.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <span class="timeline-dot"></span>
+
+                        <div class="timeline-content">
+
+                            <div class="timeline-head">
+
+                                <h3>
+                                    Matriculation — Pre-Medical
+                                </h3>
+
+                                <span>
+                                    2023–2024
+                                </span>
+
+                            </div>
+
+                            <h4>
+                                BISE Mirpurkhas
+                            </h4>
+
+                            <p>
+                                Built a strong science foundation and
+                                developed curiosity, structured
+                                thinking and problem-solving skills.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Projects -->
+            <section class="content-section">
+
+                <div class="section-title">
+
+                    <span class="section-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </span>
+
+                    <h2>
+                        Selected Projects
+                    </h2>
+
+                </div>
+
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <div>
+
+                                <h3>
+                                    Velora — E-Commerce Website
+                                </h3>
+
+                                <span class="project-type">
+                                    Web Application
+                                </span>
+
+                            </div>
+
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                        </div>
+
+                        <p>
+                            Responsive e-commerce interface with
+                            product browsing, shopping cart,
+                            modern UI components and interactive
+                            user experiences.
+                        </p>
+
+                        <div class="tech-list">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <div>
+
+                                <h3>
+                                    ProManage — Project Management System
+                                </h3>
+
+                                <span class="project-type">
+                                    Web System
+                                </span>
+
+                            </div>
+
+                            <i class="fa-solid fa-chart-line"></i>
+
+                        </div>
+
+                        <p>
+                            Project management system featuring
+                            project organization, task management,
+                            Kanban workflow, time tracking and
+                            dashboard-based interfaces.
+                        </p>
+
+                        <div class="tech-list">
+
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>AJAX</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <div>
+
+                                <h3>
+                                    Personal Portfolio Website
+                                </h3>
+
+                                <span class="project-type">
+                                    Portfolio
+                                </span>
+
+                            </div>
+
+                            <i class="fa-solid fa-globe"></i>
+
+                        </div>
+
+                        <p>
+                            Professional responsive portfolio
+                            designed to showcase development
+                            skills, certificates, education and
+                            practical projects.
+                        </p>
+
+                        <div class="tech-list">
+
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <div>
+
+                                <h3>
+                                    Event Booking Website
+                                </h3>
+
+                                <span class="project-type">
+                                    Frontend Project
+                                </span>
+
+                            </div>
+
+                            <i class="fa-solid fa-calendar-check"></i>
+
+                        </div>
+
+                        <p>
+                            Responsive event-focused interface
+                            designed with modern layouts,
+                            responsive components and clear
+                            user flows.
+                        </p>
+
+                        <div class="tech-list">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- Certifications -->
+           <section class="content-section">
+
+    <div class="section-title">
+
+        <span class="section-icon">
+            <i class="fa-solid fa-certificate"></i>
+        </span>
+
+        <h2>Certifications & Courses</h2>
+
+    </div>
+
+    <div class="certificate-list">
+
+        <div class="certificate">
+            <i class="fa-solid fa-award"></i>
+            <div>
+                <h3>Python for Data Analysis</h3>
+                <p>Coursera · 2026</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <i class="fa-solid fa-award"></i>
+            <div>
+                <h3>Introduction to Claude for Work</h3>
+                <p>Anthropic · 2026</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <i class="fa-solid fa-award"></i>
+            <div>
+                <h3>Claude 101</h3>
+                <p>Anthropic · 2026</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <i class="fa-solid fa-award"></i>
+            <div>
+                <h3>Claude Code in Action</h3>
+                <p>Anthropic · 2026</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <i class="fa-solid fa-award"></i>
+            <div>
+                <h3>AI Fluency Framework & Foundations</h3>
+                <p>Anthropic · 2026</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <i class="fa-solid fa-award"></i>
+            <div>
+                <h3>AI Fluency for Students</h3>
+                <p>Anthropic · 2026</p>
+            </div>
+        </div>
+
+        <div class="certificate">
+            <i class="fa-solid fa-award"></i>
+            <div>
+                <h3>6-Month Web Development Course</h3>
+                <p>Hunar Foundation · 2026</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+            <!-- Technical Summary -->
+            <section class="content-section">
+
+                <div class="section-title">
+
+                    <span class="section-icon">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </span>
+
+                    <h2>
+                        Technical Skills
+                    </h2>
+
+                </div>
+
+
+                <div class="technical-grid">
+
+                    <div class="technical-box">
+
+                        <i class="fa-solid fa-desktop"></i>
+
+                        <h3>
+                            Frontend Development
+                        </h3>
+
+                        <p>
+                            HTML5 · CSS3 · Bootstrap 5 ·
+                            JavaScript · jQuery · AJAX
+                        </p>
+
+                    </div>
+
+
+                    <div class="technical-box">
+
+                        <i class="fa-solid fa-server"></i>
+
+                        <h3>
+                            Backend Development
+                        </h3>
+
+                        <p>
+                            PHP · MySQL · Basic database
+                            integration and server-side logic
+                        </p>
+
+                    </div>
+
+
+                    <div class="technical-box">
+
+                        <i class="fa-solid fa-pen-ruler"></i>
+
+                        <h3>
+                            UI / UX
+                        </h3>
+
+                        <p>
+                            Responsive layouts, user-friendly
+                            interfaces and visual design
+                        </p>
+
+                    </div>
+
+
+                    <div class="technical-box">
+
+                        <i class="fa-solid fa-book-open"></i>
+
+                        <h3>
+                            Currently Learning
+                        </h3>
+
+                        <p>
+                            React · Python · Data Analytics
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Footer -->
+            <footer class="resume-footer">
+
+                <p>
+                    Kiran Goswami · Web Developer
+                </p>
+
+                <span>
+                    Available for internships,
+                    junior roles and freelance opportunities.
+                </span>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+
+    <script src="resume.js"></script>
+
+</body>
+ <script>
+    const printButton = document.getElementById("printResume");
+
+printButton.addEventListener("click", () => {
+    window.print();
+});
+ </script>
+</html>
