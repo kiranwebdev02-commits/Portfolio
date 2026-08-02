@@ -10,14 +10,15 @@ const projectsData = [
   },
 
   {
-    id: 2,
-    title: "Project Management System",
-    description: "A robust dashboard for managing tasks, tracking team progress, and visualizing data metrics in real-time.",
-    image: "assets/images/PMS2.png",
-    tags: ["PHP", "MySQL", "Bootstrap", "AJAX"],
-    liveUrl: "http://localhost/promanage/login.php",
-    githubUrl: "https://github.com/kirangoswami"
-  },
+  {
+  id: 2,
+  title: "Velora Luxury E-commerce",
+  description: "A modern luxury e-commerce website built with React, featuring a responsive design, seamless navigation, dynamic product listings, shopping cart functionality, and a premium user experience.",
+  image: "assets/images/PMS2.png",
+  tags: ["React.js", "Vite", "JavaScript", "CSS", "React Router"],
+  liveUrl: "https://velora-luxury-ecommerce.netlify.app/",
+  githubUrl: "https://kiranwebdev02-commits.github.io/Velora-luxury-ecommerce/"
+},
 
   {
     id: 1,
