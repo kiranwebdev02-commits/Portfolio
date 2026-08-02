@@ -9,7 +9,7 @@ const projectsData = [
     githubUrl: "https://github.com/kirangoswami"
   },
 
-  {
+  
   {
   id: 2,
   title: "Velora Luxury E-commerce",
