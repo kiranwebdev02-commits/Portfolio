@@ -9,15 +9,15 @@ const projectsData = [
     githubUrl: "https://github.com/kirangoswami"
   },
 
-  {
-    id: 2,
-    title: "Project Management System",
-    description: "A robust dashboard for managing tasks, tracking team progress, and visualizing data metrics in real-time.",
-    image: "assets/images/PMS2.png",
-    tags: ["PHP", "MySQL", "Bootstrap", "AJAX"],
-    liveUrl: "http://localhost/promanage/login.php",
-    githubUrl: "https://github.com/kirangoswami"
-  },
+ {
+  id: 8,
+  title: "Restaurant Management System",
+  description: "A professional restaurant management system featuring restaurant operations, menu management, reservations, orders, and a responsive management dashboard.",
+  image: "assets/images/Screenshot 2026-08-21 134510.png",
+  tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+  liveUrl: "http://localhost/Aurevia-Hotel-Management-System/",
+  githubUrl: "https://github.com/kirangoswami"
+},
 
   {
     id: 1,
@@ -28,15 +28,33 @@ const projectsData = [
     liveUrl: "https://kiranwebdev02-commits.github.io/web-development-roadmap/",
     githubUrl: "https://github.com/kirangoswami"
   },
-      {
-    id: 1,
-    title: "Roadmap Website",
-    description: "A modern web development roadmap platform with interactive learning paths and technology guides.",
-    image: "assets/images/webroadmap.png",
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    liveUrl: "https://kiranwebdev02-commits.github.io/web-development-roadmap/",
-    githubUrl: "https://github.com/kirangoswami"
-  },
+     {
+  id: 5,
+  title: "Furniture E-Commerce Website",
+  description: "A modern furniture e-commerce website featuring a professional product showcase, furniture categories, responsive design, and a smooth online shopping experience.",
+  image: "assets/images/Screenshot 2026-08-21 133742.png",
+  tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
+  liveUrl: "https://kiran-goswami-2.12commerce.com/",
+  githubUrl: "https://github.com/kirangoswami"
+},
+  {
+  id: 6,
+  title: "Beauty & Makeup E-Commerce Website",
+  description: "A modern beauty and makeup e-commerce website featuring premium product showcases, responsive design, attractive UI, and a smooth online shopping experience.",
+  image: "assets/images/Screenshot 2026-08-21 132501.png",
+  tags: ["React", "JavaScript", "Tailwind CSS", "E-Commerce"],
+  liveUrl: "https://gilded-semolina-3a8f2a.netlify.app/",
+  githubUrl: "https://github.com/kirangoswami"
+},
+  {
+  id: 7,
+  title: "E-Commerce Website",
+  description: "A modern e-commerce website featuring a professional product showcase, responsive design, attractive UI, organized categories, and a smooth online shopping experience.",
+  image: "assets/images/Screenshot 2026-08-21 134007.png",
+  tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
+  liveUrl: "https://kiran-goswami-2.12commerce.com/",
+  githubUrl: "https://github.com/kirangoswami"
+},
 ];
 
 function renderProjects() {
