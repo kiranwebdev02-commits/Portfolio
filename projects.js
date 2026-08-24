@@ -43,8 +43,8 @@ const projectsData = [
   description: "A modern beauty and makeup e-commerce website featuring premium product showcases, responsive design, attractive UI, and a smooth online shopping experience.",
   image: "assets/images/Screenshot 2026-08-21 132501.png",
   tags: ["React", "JavaScript", "Tailwind CSS", "E-Commerce"],
-  liveUrl: "https://gilded-semolina-3a8f2a.netlify.app/",
-  githubUrl: "https://github.com/kirangoswami"
+  liveUrl: "https://velora-luxury-ecommerce.netlify.app/",
+  githubUrl: "https://kiranwebdev02-commits.github.io/Velora-luxury-ecommerce/"
 },
   {
   id: 7,
