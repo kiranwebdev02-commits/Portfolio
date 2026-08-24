@@ -15,7 +15,7 @@ const projectsData = [
   description: "A professional restaurant management system featuring restaurant operations, menu management, reservations, orders, and a responsive management dashboard.",
   image: "assets/images/Screenshot 2026-08-21 134510.png",
   tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
-  liveUrl: "http://localhost/Aurevia-Hotel-Management-System/",
+  liveUrl: "https://aureviahotel.42web.io/",
   githubUrl: "https://github.com/kirangoswami"
 },
 
