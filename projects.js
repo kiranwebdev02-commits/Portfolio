@@ -34,7 +34,7 @@ const projectsData = [
   description: "A modern furniture e-commerce website featuring a professional product showcase, furniture categories, responsive design, and a smooth online shopping experience.",
   image: "assets/images/Screenshot 2026-08-21 133742.png",
   tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
-  liveUrl: "https://kiran-goswami-2.12commerce.com/",
+  liveUrl: "https://velora-luxury-ecommerce.netlify.app/",
   githubUrl: "https://github.com/kirangoswami"
 },
   {
@@ -43,7 +43,7 @@ const projectsData = [
   description: "A modern beauty and makeup e-commerce website featuring premium product showcases, responsive design, attractive UI, and a smooth online shopping experience.",
   image: "assets/images/Screenshot 2026-08-21 132501.png",
   tags: ["React", "JavaScript", "Tailwind CSS", "E-Commerce"],
-  liveUrl: "https://velora-luxury-ecommerce.netlify.app/",
+  liveUrl: "https://gilded-semolina-3a8f2a.netlify.app/",
   githubUrl: "https://kiranwebdev02-commits.github.io/Velora-luxury-ecommerce/"
 },
   {
