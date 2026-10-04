@@ -42,7 +42,7 @@ const projectsData = [
   title: "Business Management Dashboard",
   status: "Currently In Development",
   description: "A comprehensive business management dashboard designed to centralize employee management, attendance, payroll, projects, tasks, and key business operations in one organized system.",
-  image: "assets/images/Screenshot 2026-10-05 022951.png",
+  image: "assets/images/Screenshot 2026-10-05 022951",
   tags: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
   liveUrl: "",
   githubUrl: "https://github.com/kirangoswami"
