@@ -37,12 +37,12 @@ const projectsData = [
 //   liveUrl: "https://velora-luxury-ecommerce.netlify.app/",
 //   githubUrl: "https://github.com/kirangoswami"
 // },
-  {
+ {
   id: 5,
   title: "Business Management Dashboard",
   status: "Currently In Development",
   description: "A comprehensive business management dashboard designed to centralize employee management, attendance, payroll, projects, tasks, and key business operations in one organized system.",
-  image: "assets/images/Screenshot 2026-10-05 022951",
+  image: "assets/images/Screenshot 2026-10-05 022951.png",
   tags: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
   liveUrl: "",
   githubUrl: "https://github.com/kirangoswami"
