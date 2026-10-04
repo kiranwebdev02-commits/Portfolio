@@ -55,25 +55,17 @@ const projectsData = [
 //   liveUrl: "https://gilded-semolina-3a8f2a.netlify.app/",
 //   githubUrl: "https://kiranwebdev02-commits.github.io/Velora-luxury-ecommerce/"
 // },
-//   {
-//   id: 7,
-//   title: "E-Commerce Website",
-//   description: "A modern e-commerce website featuring a professional product showcase, responsive design, attractive UI, organized categories, and a smooth online shopping experience.",
-//   image: "assets/images/Screenshot 2026-08-21 134007.png",
-//   tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
-//   liveUrl: "https://kiran-goswami-2.12commerce.com/",
-//   githubUrl: "https://github.com/kirangoswami"
-// },
   {
   id: 7,
-  title: "Business Management Dashboard",
-  description: "A comprehensive business management dashboard designed to centralize employee management, attendance, payroll, projects, tasks, and key business operations in one organized system.",
-  image: "assets/images/Screenshot 2026-10-05 022951",
-  tags: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
-  liveUrl: "",
-  githubUrl: "https://github.com/kirangoswami",
-  status: "In Development"
+  title: "E-Commerce Website",
+  description: "A modern e-commerce website featuring a professional product showcase, responsive design, attractive UI, organized categories, and a smooth online shopping experience.",
+  image: "assets/images/Screenshot 2026-08-21 134007.png",
+  tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
+  liveUrl: "https://kiran-goswami-2.12commerce.com/",
+  githubUrl: "https://github.com/kirangoswami"
 },
+  
+ 
 ];
 
 function renderProjects() {
