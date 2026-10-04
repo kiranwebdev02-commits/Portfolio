@@ -28,13 +28,23 @@ const projectsData = [
     liveUrl: "https://webdevroadmap.ifree.page/?i=1",
     githubUrl: "https://github.com/kirangoswami"
   },
-     {
-  id: 5,
-  title: "Furniture E-Commerce Website",
-  description: "A modern furniture e-commerce website featuring a professional product showcase, furniture categories, responsive design, and a smooth online shopping experience.",
-  image: "assets/images/Screenshot 2026-08-21 133742.png",
-  tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
-  liveUrl: "https://velora-luxury-ecommerce.netlify.app/",
+//      {
+//   id: 5,
+//   title: "Furniture E-Commerce Website",
+//   description: "A modern furniture e-commerce website featuring a professional product showcase, furniture categories, responsive design, and a smooth online shopping experience.",
+//   image: "assets/images/Screenshot 2026-08-21 133742.png",
+//   tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
+//   liveUrl: "https://velora-luxury-ecommerce.netlify.app/",
+//   githubUrl: "https://github.com/kirangoswami"
+// },
+  {
+  id: 7,
+  title: "Business Management Dashboard",
+  status: "Currently In Development",
+  description: "A comprehensive business management dashboard designed to centralize employee management, attendance, payroll, projects, tasks, and key business operations in one organized system.",
+  image: "assets/images/Screenshot 2026-10-05 022951.png",
+  tags: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
+  liveUrl: "",
   githubUrl: "https://github.com/kirangoswami"
 },
   {
@@ -58,7 +68,7 @@ const projectsData = [
   {
   id: 7,
   title: "E-Commerce Website",
-  description: "A modern e-commerce website featuring a professional product showcase, responsive design, attractive UI, organized categories, and a smooth online shopping experience.",
+  description: "A modern furniture e-commerce website featuring a professional product showcase, furniture categories, responsive design, and a smooth online shopping experience.",
   image: "assets/images/Screenshot 2026-08-21 134007.png",
   tags: ["HTML", "CSS", "JavaScript", "E-Commerce"],
   liveUrl: "https://kiran-goswami-2.12commerce.com/",
