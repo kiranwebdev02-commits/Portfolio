@@ -25,7 +25,7 @@ const projectsData = [
     description: "A modern web development roadmap platform with interactive learning paths and technology guides.",
     image: "assets/images/webroadmap.png",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    liveUrl: "https://kiranwebdev02-commits.github.io/web-development-roadmap/",
+    liveUrl: "https://webdevroadmap.ifree.page/?i=1",
     githubUrl: "https://github.com/kirangoswami"
   },
      {
